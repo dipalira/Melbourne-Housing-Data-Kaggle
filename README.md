@@ -14,3 +14,5 @@ Sample Results -
 |--------------------------|-----------------------------| 
 |![](https://github.com/dipalira/Melbourne-Housing-Data-Kaggle/blob/master/Images/cluster_!.png )  |  ![](https://github.com/dipalira/Melbourne-Housing-Data-Kaggle/blob/master/Images/cluster_5.png)|
 
+## Prediction of Prices
+### Penalized Linear Regression model:
