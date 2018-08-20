@@ -8,5 +8,6 @@ The next step would be to treat every row of the data as vectors in pursuit of f
 2. **Choose Number of Clusters and Standardize Data** - For choosing the number of clusters k, I use the Elbow method. Elbow method tries different values of k and plot the average distance of data points from their respective centroid (average within-cluster sum of squares) as a function of k. We look for the “elbow” point where increasing the k value drastically lowers the average distance of each data point to its respective centroid, but as you continue increasing k the improvements begin to decrease asymptotically. The ideal k value is found at the elbow of such a plot. I have also standardized the data to counter the high influence by variables having unusual scales then the rest.
 Sample Results - 
 1.	Features Observed – Property Count and Rooms
+
 ![alt text](https://github.com/dipalira/Melbourne-Housing-Data-Kaggle/blob/master/Images/cluster_!.png )
 
