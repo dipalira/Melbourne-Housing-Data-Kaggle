@@ -7,10 +7,9 @@ The next step would be to treat every row of the data as vectors in pursuit of f
 1. **Cleaning Data**: For clustering, your data must be indeed integers. Moreover, since k-means is using Euclidean distance, having categorical column is not a good idea. I normalized my dataset which would have a certain set of variables chosen. All the none values were either imputed or removed in the previous step. The variable ‘Date’ in its standard format will not be fed well in the model so I made a new column which encodes the month of the date present and dropped the former. 
 2. **Choose Number of Clusters and Standardize Data** - For choosing the number of clusters k, I use the Elbow method. Elbow method tries different values of k and plot the average distance of data points from their respective centroid (average within-cluster sum of squares) as a function of k. We look for the “elbow” point where increasing the k value drastically lowers the average distance of each data point to its respective centroid, but as you continue increasing k the improvements begin to decrease asymptotically. The ideal k value is found at the elbow of such a plot. I have also standardized the data to counter the high influence by variables having unusual scales then the rest.
 Sample Results - 
-1.	Features Observed – Property Count and Rooms
 
-![alt text](https://github.com/dipalira/Melbourne-Housing-Data-Kaggle/blob/master/Images/cluster_!.png )
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](https://github.com/dipalira/Melbourne-Housing-Data-Kaggle/blob/master/Images/cluster_!.png )  |  ![](https://...Dark.png)
+
+|Features Observed – Property Count and Rooms             |  Latitude/Longitude|
+|--------------------------|-----------------------------| 
+|![](https://github.com/dipalira/Melbourne-Housing-Data-Kaggle/blob/master/Images/cluster_!.png )  |  ![](https://github.com/dipalira/Melbourne-Housing-Data-Kaggle/blob/master/Images/cluster_5.png)|
 
