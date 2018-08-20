@@ -10,4 +10,7 @@ Sample Results -
 1.	Features Observed – Property Count and Rooms
 
 ![alt text](https://github.com/dipalira/Melbourne-Housing-Data-Kaggle/blob/master/Images/cluster_!.png )
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://github.com/dipalira/Melbourne-Housing-Data-Kaggle/blob/master/Images/cluster_!.png )  |  ![](https://...Dark.png)
 
