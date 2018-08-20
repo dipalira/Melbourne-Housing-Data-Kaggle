@@ -16,3 +16,9 @@ Sample Results -
 
 ## Prediction of Prices
 ### Penalized Linear Regression model:
+Following pre-processing steps were performed for all the models
+• No scaling has been performed on the dataset. The RMSE values reported are of original scale.
+• We selected Room, Price, Distance, Bathroom, Car, Landsize, Lattitude, Longtitude,
+Propertycount, CouncilArea, Month, Method, Type, RegionName as features
+• Some of the categorical variables like Month, Method, Type, RegionName was one hot encoded.
+• Train/Test set split is 80%/20%
