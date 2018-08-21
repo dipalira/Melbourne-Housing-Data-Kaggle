@@ -16,9 +16,16 @@ Sample Results -
 
 ## Prediction of Prices
 ### Penalized Linear Regression model:
+I used Ridge and LASSO regression with the following pre-processing.
 Following pre-processing steps were performed for all the models
 • No scaling has been performed on the dataset. The RMSE values reported are of original scale.
 • We selected Room, Price, Distance, Bathroom, Car, Landsize, Lattitude, Longtitude,
 Propertycount, CouncilArea, Month, Method, Type, RegionName as features
 • Some of the categorical variables like Month, Method, Type, RegionName was one hot encoded.
 • Train/Test set split is 80%/20%
+### Non - Parametric Methods- 
+I used Random Foreset Regressor and Gradient Boosting Machine. Further to improve the model, I used a stacked model of the two previous models. 
+Random forest is a meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and use averaging to improve the predictive accuracy and control over-fitting. Some of the constant paramters throught are 0.
+GB builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage a regression tree is fit on the negative gradient of the given loss function. Parameters which are constant throughout the model.
+
+![https://github.com/dipalira/Melbourne-Housing-Data-Kaggle/blob/master/Images/comparasion.png]
