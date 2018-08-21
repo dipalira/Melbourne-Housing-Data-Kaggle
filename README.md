@@ -29,3 +29,9 @@ Random forest is a meta estimator that fits a number of classifying decision tre
 GB builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage a regression tree is fit on the negative gradient of the given loss function. Parameters which are constant throughout the model.
 
 ![](https://github.com/dipalira/Melbourne-Housing-Data-Kaggle/blob/master/Images/comparasion.png)
+## OBSERVATIONS –
+• We observe that with the selected feature selection method doesn’t work well. Perhaps, tuning
+the number of feature to include from Random Forest would improve the feature.
+• Also, we haven’t scaled any features, doing that in the future can improve accuracy
+• The overall computation time of the modified model has decreased with considerable
+improvement in error.
